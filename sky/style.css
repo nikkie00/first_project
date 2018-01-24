@@ -1,0 +1,43 @@
+.wrap {
+    background-color: #01DFD7;
+    width: 1000px;
+    height: 600px;
+}
+.img {
+    width: 100%;
+}
+
+.house {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 350px;
+    top: 100px;
+    z-index: 10;
+}
+.sky {
+    position: absolute;
+    bottom: 300px;
+    left: 100px;
+    width: 232px;
+    height: 103px;
+}
+
+.house::before,
+.house::after  {
+    content: url('l-wing.png');
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    z-index: -10;
+    margin-right:-5%;
+}
+
+.house::after {
+    right: auto;
+    left: 100%;
+    transform: rotateY(180deg);
+    margin-left:-5%;
+}
+
+

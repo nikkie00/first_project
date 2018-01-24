@@ -1,0 +1,50 @@
+.wrap {
+    width: 600px;
+    background: white;
+    padding: 10px; 
+}
+   
+.img {
+    width: 100%;
+}
+
+.card {
+    width: 70px;
+    height: 96px;
+    position: relative;
+}
+
+.ace {
+    position: absolute;
+    top: -280px;
+    left: 120px;
+    z-index: 5;
+}
+
+.king {
+    position: absolute;
+    top: -210px;
+    left: 90px;
+    z-index: 4;
+}
+
+.gueen {
+    position: absolute;
+    top: -140px;
+    left: 60px;
+    z-index: 3;
+}
+
+.jack {
+    position: absolute;
+    top: -70px;
+    left: 30px;
+    z-index: 2;
+}
+
+.card_10 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}

@@ -1,0 +1,35 @@
+            .pazl {
+            width: 500px;
+            height: 375px;
+            position: relative;
+        }
+
+        .pazl-item-2 {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .pazl-item-4 {
+            position: absolute;
+            left: 240px;
+            top: 0;
+        }
+
+        .pazl-item-1 {
+            position: absolute;
+            left: 93px;
+            top: 0;
+        }
+
+        .pazl-item-3 {
+            position: absolute;
+            top: 118px;
+            left: 117px;
+            bottom: 0;
+        }
+
+        .pazl-item-5 {
+            position: absolute;
+            right: 0;
+            bottom: 0;
